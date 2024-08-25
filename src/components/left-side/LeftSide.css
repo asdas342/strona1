@@ -1,0 +1,148 @@
+.left {
+    display: flex;
+    flex-direction: column; /* Ustawia zawartość w kolumnie */
+    padding-top: 10%;
+    width: 50%;
+    height: 100vh;
+    position: sticky;
+    top: 0;
+    left: 0; /* Odstęp od lewej krawędzi */
+    padding-left: 20%;
+    overflow: hidden;
+    box-sizing: border-box; /* Upewnia się, że padding nie wpływa na szerokość kontenera */
+}
+
+.left .about-me {
+    flex: 0 1 auto; /* Pozwala sekcji zajmować dostępne miejsce i nie rośnie poza swoje zawartość */
+}
+
+.left .src-list {
+    flex: 0 1 auto; /* Pozwala sekcji zajmować dostępne miejsce */
+}
+
+.left .contact-list {
+    display: flex;
+    flex-direction: column; /* Ustawia ikony w kolumnie */
+    justify-content: flex-end; /* Ustawia ikony na dole kontenera */
+    padding: 0;
+    margin-top: auto; /* Przesuwa .contact-list do dołu kontenera */
+}
+
+.left .contact-list ol {
+    display: flex;
+    justify-content: center; /* Wyrównuje ikony na środku */
+    padding: 0;
+    margin-bottom: 30%;
+    list-style-type: none; /* Usuwa domyślne style listy */
+}
+
+.left .contact-list li {
+    margin: 10px; /* Odstęp między ikonami */
+}
+
+.left .contact-list img {
+    max-width: 25px; /* Maksymalna szerokość ikon */
+    height: auto; /* Automatyczna wysokość dla zachowania proporcji */
+}
+
+.left .social-media-icon {
+    fill: red; /* Kolor dla SVG */
+}
+
+.left li {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.left h1 {
+    line-height: 25px;
+    font-size: 35px;
+}
+
+.left h2 {
+    line-height: 0;
+    font-size: 18px;
+}
+
+.left h3 {
+    font-size: 12px;
+    color: #637084;
+}
+
+.left ul li {
+    font-size: 12px;
+    margin: 10px;
+    font-weight: bold;
+    color: #64748b;
+    letter-spacing: 3px;
+    cursor: pointer;
+}
+
+.left ul li:hover {
+    color: white;
+}
+
+.left ol {
+    display: flex;
+}
+
+.left ol li {
+    margin: 10px;
+}
+
+.left li img {
+    max-width: 25px;
+}
+.icon-social{
+    color: #637084;
+}
+.jeden {
+    width: 100px;
+    height: 100px;
+  }
+.isCurrent a{
+    color: red;
+}
+.menu-link {
+    position: relative;
+    display: inline-block;
+    padding-left: 30px;
+    text-decoration: none;
+    color: #64748b; /* Kolor tekstu */
+    transition: padding-left 0.3s ease, color 0.3s ease; /* Dodaj transition dla koloru */
+}
+
+.menu-link::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px; /* Domyślna szerokość kreski */
+    height: 0.5px;
+    background-color: grey; /* Kolor kreski */
+    transition: width 0.3s ease, background-color 0.3s ease; /* Animacja dla szerokości i koloru */
+}
+
+.menu-link:hover::before {
+    width: 40px; /* Szerokość kreski po najechaniu */
+    background-color: white; /* Kolor kreski po najechaniu */
+}
+
+.menu-link.active::before {
+    width: 30px; /* Szerokość kreski dla aktywnego linku */
+    background-color: white; /* Kolor kreski dla aktywnego linku */
+}
+
+.menu-link:hover {
+    color: white; /* Zmiana koloru tekstu po najechaniu */
+    padding-left: 50px; /* Przesunięcie tekstu w prawo po najechaniu */
+}
+
+.menu-link.active {
+    color: white; /* Zmiana koloru tekstu dla aktywnego linku */
+    padding-left: 50px; /* Upewnij się, że tekst przesuwa się również dla aktywnego linku */
+}
+
+  

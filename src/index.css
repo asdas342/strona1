@@ -1,0 +1,105 @@
+body{
+    margin: 0;
+    background-color:  #0f172a;
+    font-family: 'Inter', sans-serif;
+    color: #e2e8f0;
+}
+.app-container {
+    display: flex; 
+    flex-direction: row;
+}
+::selection {
+  background-color:  #58dbd4; 
+  color: #144e56; 
+}
+@media (max-width: 768px) {
+    .app-container {
+      flex-direction: column;
+    }
+  
+    .left {
+      padding: 20px;
+      height: auto;
+      width: 100%;
+      order: 1; 
+      position: static;
+    }
+  
+    .right {
+      padding: 0 10px 0 10px;
+      margin: 10px;
+      width: 80%;
+      order: 2;
+    }
+    .src-list{
+        display: none;
+    }
+
+    .left .contact-list ol{
+        justify-content: left;
+    }
+    .text-about-me{
+      margin-top: 0;
+    }
+    .mobile-title{
+      display: block;
+    }
+    .experience-all {
+      flex-direction: column; /* Ustawia układ pionowy na urządzeniach mobilnych */
+  }
+
+  .experience-date {
+      width: 100%; /* Rozciąga experience-date na pełną szerokość */
+      margin-right: 0; /* Usuwa margines */
+  }
+
+  .experience-text {
+      width: 100%; /* Rozciąga experience-text na pełną szerokość */
+  }
+  .coding-details{
+    margin: 0;
+    width: 100%;
+    text-align: left;
+    display: inline-block;
+  }
+  .coding-details ol{
+    margin: 0;
+    padding: 0;
+  }
+  .coding-details li{
+    margin: 5px;
+  }
+  .project-all {
+    flex-direction: column; /* Zmienia układ na pionowy na urządzeniach mobilnych */
+}
+
+.project-date {
+    width: 100%; /* Rozciąga projekt-date na pełną szerokość */
+    margin-right: 0; /* Usuwa margines */
+    order: 3; /* Ustawia zdjęcie na końcu */
+}
+
+.project-text {
+    width: 100%; /* Rozciąga projekt-text na pełną szerokość */
+    order: 1; /* Ustawia tekst na początku */
+}
+.project-date img{
+  margin: 20px 0 20px 0;
+  width: 150px;
+}
+.project-text h4, .project-text p {
+    margin: 0; /* Usuwa marginesy */
+}
+.project-text h4{
+  margin: 20px 0 20px 0;
+}
+.additional-date img{
+  width: 80px;
+}
+  }
+  .experience-section{
+    margin-top: 25%;
+  }
+  .projects{
+    margin-top: 20%;
+  }

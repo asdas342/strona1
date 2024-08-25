@@ -1,0 +1,85 @@
+.additional-item {
+  border-radius: 10px;
+  cursor: pointer;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  transition: background-color 0.3s ease;
+}
+
+.additional-item:hover {
+  background-color: #16233f;
+}
+
+.additional-item.dimmed {
+  opacity: 0.5;
+}
+
+.additional-item:not(.dimmed):hover {
+  background-color: #16233f;
+  opacity: 1;
+}
+
+.additional-access {
+  padding: 20px;
+}
+
+.additional-all {
+  display: flex;
+  width: 100%;
+}
+.additional-date img{
+  width: 100px;
+}
+.additional-item li {
+  list-style-type: none;
+  display: inline;
+  margin: 5px;
+}
+
+.additional-date {
+  width: 30%;
+  margin-right: 10px;
+}
+
+.additional-text {
+  width: 70%;
+}
+
+.additional-text h4 {
+  line-height: 0;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.additional-text h5 {
+  color: #505e75;
+  line-height: 1px;
+}
+
+.additional-text p {
+  font-size: 12px;
+  color: #505e75;
+}
+
+.coding-details {
+  width: 100%;
+}
+
+.coding-details li {
+  font-size: 10px;
+  background-color: #122b39;
+  padding: 7px;
+  border-radius: 10px;
+  color: #4fc4b5;
+  font-weight: bold;
+}
+
+.additional-date {
+  font-size: 12px;
+  font-weight: bold;
+  color: #505e75;
+}
+.additional-item:hover h4{
+  color: #4cbfc2;
+}

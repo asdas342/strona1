@@ -1,0 +1,31 @@
+.right {
+    padding-top: 10%;
+    width: 50%;
+    margin-left: 10%;
+    margin-right: 20%;
+}
+.coding-details {
+    width: 100%; /* Upewnienie się, że zajmuje całą szerokość */
+}
+.coding-details li{
+    font-size: 10px;
+    background-color: #122b39;
+    padding: 7px;
+    border-radius: 10px;
+    color: #4fc4b5;
+    font-weight: bold;
+}
+
+.View-Full-Resume{
+    font-weight: bold;
+    font-size: 14px;
+}
+.View-Full-Resume:hover{
+    color: #4cbfc2;
+    cursor: pointer;
+}
+.mobile-title{
+    font-weight: bold;
+    color: #d8dee6;
+    display: none;
+}

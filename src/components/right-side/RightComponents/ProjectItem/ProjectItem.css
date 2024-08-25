@@ -1,0 +1,91 @@
+.project-item {
+    border-radius: 10px;
+    cursor: pointer;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    transition: background-color 0.3s ease;
+}
+
+.project:hover {
+    background-color: #16233f;
+}
+.project-access {
+    padding: 20px;
+}
+
+.project-all {
+    display: flex;
+    width: 100%;
+}
+
+.project li {
+    list-style-type: none;
+    display: inline;
+    margin: 5px;
+}
+
+.project-date {
+    width: 30%;
+    margin-right: 10px;
+}
+
+.project-text {
+    width: 70%;
+}
+
+.project-text h4 {
+    line-height: 0;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.project-text h5 {
+    color: #505e75;
+    line-height: 1px;
+}
+
+.project-text p {
+    font-size: 12px;
+    color: #505e75;
+}
+
+.project-item .coding-details ol {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.coding-details li {
+    font-size: 10px;
+    background-color: #122b39;
+    padding: 7px;
+    border-radius: 10px;
+    color: #4fc4b5;
+    font-weight: bold;
+}
+
+.project-date {
+    font-size: 12px;
+    font-weight: bold;
+    color: #505e75;
+}
+.project-item:hover h4{
+    color: #4cbfc2;
+}
+.project-date img{
+    width: 100px;
+  }
+.coding-details li{
+    list-style-type: none;
+    display: inline-block;
+    margin: 10px;
+}
+.project-item.dimmed {
+    opacity: 0.5;
+}
+
+.project-item:not(.dimmed):hover {
+    background-color: #16233f;
+    opacity: 1;
+}
