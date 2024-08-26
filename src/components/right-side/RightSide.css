@@ -5,7 +5,7 @@
     margin-right: 20%;
 }
 .coding-details {
-    width: 100%; /* Upewnienie się, że zajmuje całą szerokość */
+    width: 100%; 
 }
 .coding-details li{
     font-size: 10px;

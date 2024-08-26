@@ -19,7 +19,7 @@ const LeftSide = () => {
                         duration={800}
                         activeClass="active"
                         className="menu-link"
-                        spy={true} // Dodaj ten atrybut
+                        spy={true} 
                         offset={-200}
                     >
                         ABOUT ME
@@ -30,7 +30,7 @@ const LeftSide = () => {
                         duration={500}
                         activeClass="active"
                         className="menu-link"
-                        spy={true} // Dodaj ten atrybut
+                        spy={true} 
                         offset={-130}
                     >
                         EXPERIENCE
@@ -41,7 +41,7 @@ const LeftSide = () => {
                         duration={1500}
                         activeClass="active"
                         className="menu-link"
-                        spy={true} // Dodaj ten atrybut
+                        spy={true} 
                         offset={-150}
                     >
                         PROJECTS

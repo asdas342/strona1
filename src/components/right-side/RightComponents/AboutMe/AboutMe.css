@@ -3,12 +3,12 @@
     color: #4b586e;
 }
 .text-about-me .highlight {
-    color: #ffffff; /* Kolor tekstu */
-    transition: color 0.3s ease, background-color 0.3s ease; /* Animacje */
+    color: #ffffff; 
+    transition: color 0.3s ease, background-color 0.3s ease; 
   }
   
   .text-about-me .highlight:hover {
-    color: #4cbcbf; /* Kolor tekstu po najechaniu */
+    color: #4cbcbf; 
     cursor: pointer;
   }
   

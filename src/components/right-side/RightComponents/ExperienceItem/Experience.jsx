@@ -1,4 +1,3 @@
-// ExperienceData.jsx
 export const experienceData = [
     {
       date: '2018 - 2024',

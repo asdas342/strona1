@@ -1,17 +1,14 @@
- import ig from './img/ig.svg';
- import git from './img/git.svg';
- import lin from './img/in.svg';
- import x from './img/x.svg';
- import './ContactList.css';
+import './ContactList.css';
  const ContactList = () => {
 
     return(
         <div className="contact-list">
                 <ol>
-                    <li><img src={ig} className="contact-icon"></img></li>
-                    <li><img src={git} className="contact-icon"></img></li>
-                    <li><img src={lin} className="contact-icon"></img></li>
-                    <li><img src={x} className="contact-icon"></img></li>
+                    <li>1</li>
+                    <li>2</li>
+                    <li>3</li>
+                    <li>4</li>
+                    <li>5</li>
                 </ol>
             </div>
     )

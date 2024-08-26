@@ -18,17 +18,19 @@ body{
     }
   
     .left {
-      padding: 20px;
+      padding: 0;
       height: auto;
-      width: 100%;
+      margin: 0 auto;
+      width: 90%;
       order: 1; 
       position: static;
     }
   
     .right {
       padding: 0 10px 0 10px;
-      margin: 10px;
-      width: 80%;
+      height: auto;
+      margin: 0 auto;
+      width: 90%;
       order: 2;
     }
     .src-list{
@@ -45,16 +47,16 @@ body{
       display: block;
     }
     .experience-all {
-      flex-direction: column; /* Ustawia układ pionowy na urządzeniach mobilnych */
+      flex-direction: column; 
   }
 
   .experience-date {
-      width: 100%; /* Rozciąga experience-date na pełną szerokość */
-      margin-right: 0; /* Usuwa margines */
+      width: 100%; 
+      margin-right: 0; 
   }
 
   .experience-text {
-      width: 100%; /* Rozciąga experience-text na pełną szerokość */
+      width: 100%; 
   }
   .coding-details{
     margin: 0;
@@ -70,31 +72,34 @@ body{
     margin: 5px;
   }
   .project-all {
-    flex-direction: column; /* Zmienia układ na pionowy na urządzeniach mobilnych */
+    flex-direction: column; 
 }
 
 .project-date {
-    width: 100%; /* Rozciąga projekt-date na pełną szerokość */
-    margin-right: 0; /* Usuwa margines */
-    order: 3; /* Ustawia zdjęcie na końcu */
+    width: 100%; 
+    margin-right: 0; 
+    order: 3; 
 }
 
 .project-text {
-    width: 100%; /* Rozciąga projekt-text na pełną szerokość */
-    order: 1; /* Ustawia tekst na początku */
+    width: 100%; 
+    order: 1; 
 }
 .project-date img{
   margin: 20px 0 20px 0;
   width: 150px;
 }
 .project-text h4, .project-text p {
-    margin: 0; /* Usuwa marginesy */
+    margin: 0; 
 }
 .project-text h4{
   margin: 20px 0 20px 0;
 }
 .additional-date img{
   width: 80px;
+}
+.left .about-me {
+  margin-top: 10%;
 }
   }
   .experience-section{
@@ -103,3 +108,7 @@ body{
   .projects{
     margin-top: 20%;
   }
+.project-date img, .experience-date img, .additional-date img{
+  border-radius: 5px;
+  border: 1px solid #1e2637;
+} 
